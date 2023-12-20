@@ -17,11 +17,12 @@ In other format
 郭台銘：2023-08-28  until 2023-11-24 
 
 ### keywords
+Ok this appears to be complete but I might want to write it out in a table so I am sure that I have all the keywords.
 
-柯文哲	60	"民進黨" OR "民主進步黨" OR "賴" OR "侯" OR "國民黨" OR "郭" OR "藍白合"
-賴清德	13	"侯" OR "國民黨" OR "民眾黨" OR "柯" OR "郭"OR "藍白合"
-侯友宜	82	"民進黨" OR "民主進步黨" OR "民眾黨" OR "柯" OR "郭" OR "賴" OR "藍白合"
-郭台銘	90	"民進黨" OR "民主進步黨" OR "賴" OR "侯" OR "國民黨" OR "藍白合"
+柯文哲:	    "民進黨" OR "民主進步黨" OR "賴" OR "侯" OR "國民黨" OR "郭" OR "藍白" OR "蕭" OR "蔡" OR "馬前總統" OR "馬英九" OR "朱" OR "趙" OR "賴佩霞" OR "藍綠" OR "執政黨" OR "藍營" OR "綠營" OR "主流民意大聯盟"
+賴清德:		"侯" OR "國民黨" OR "民眾黨" OR "柯" OR "郭" OR "藍白" OR "吳"  OR "馬前總統" OR "馬英九" OR "朱" OR "趙" OR "賴佩霞" OR "在野黨" OR "藍營" OR "主流民意大聯盟"
+侯友宜:		"民進黨" OR "民主進步黨" OR "民眾黨" OR "柯" OR "郭" OR "賴" OR "藍白" OR "蕭" OR "蔡" OR "賴佩霞" OR "執政黨" OR "主流民意大聯盟" OR "吳" OR "綠營"
+郭台銘:		"民進黨" OR "民主進步黨" OR "賴" OR "侯" OR "國民黨" OR "藍白" OR "蔡"  OR "馬前總統" OR "馬英九" OR "朱" OR "趙" OR "民眾黨" OR "執政黨" OR "藍營" OR "綠營" OR "主流民意大聯盟" OR "吳" OR "蕭"
 
 feedback professor: 在實際的經驗上可以發現，候選人有時也會使用「藍白陣營」、「主流民意大聯盟」、「執政黨」、「在野黨」可以考慮納入。
 2.因為藍白合或在野合作的歷史，所以「柯郭配」、「郭柯配」、「柯侯配」、「侯柯配」、「郭賴配」等名詞也會出現，同時有些名詞所指涉的對象橫跨單一政黨陣營，所以在coding上可能需要分別加上次數。
