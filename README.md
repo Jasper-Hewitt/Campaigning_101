@@ -2,6 +2,12 @@
 
 even though the post created column says CST. IT is still in Taiwan time so that's weird lol.
 
+### categories for labelling the posts. 
+
+
+### attack on 
+when i write 執政黨/民進黨 it means that only 執政黨 is mentioned but likely 民進黨 is implied. This is something to think about though. Because technically speaking if you're 柯文哲 or 郭台銘 執政黨 can also refer to 國民黨 I guess?
+
 ### serial_number
 The serial numbers are only based on the posts that fall within the time periods of each candidates' campaign.
 If I get new data I will have to add serial numbers accordingly...
