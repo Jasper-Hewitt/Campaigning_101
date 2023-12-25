@@ -6,6 +6,10 @@ even though the post created column says CST. IT is still in Taiwan time so that
 The serial numbers are only based on the posts that fall within the time periods of each candidates' campaign.
 If I get new data I will have to add serial numbers accordingly...
 
+After labelling the save_for_label_df (this contains only the posts where other politicians are mentinoned). I will have to merge it back with filtered_df (this contains all the posts). I will have to merge on the common columns so as not to create duplicates!
+
+###
+
 ### started running dates 
 賴清德: 12/04/23
 侯友宜: 17/05/2023 （pre-official）
