@@ -3,7 +3,8 @@
 even though the post created column says CST. IT is still in Taiwan time so that's weird lol.
 
 ### serial_number
-The serial numbers are based on the whole dataset right after I downloaded it from crowdtangle. This means that there are also posts in there that fall outside of the date range. This is no problem because if I decide on another date range later I can still adjust it. 
+The serial numbers are only based on the posts that fall within the time periods of each candidates' campaign.
+If I get new data I will have to add serial numbers accordingly...
 
 ### started running dates 
 賴清德: 12/04/23
