@@ -8,7 +8,8 @@ If I get new data I will have to add serial numbers accordingly...
 
 After labelling the save_for_label_df (this contains only the posts where other politicians are mentinoned). I will have to merge it back with filtered_df (this contains all the posts). I will have to merge on the common columns so as not to create duplicates!
 
-###
+### GPT 4 
+I can maybe try to use some GPT 4 in the process after I have labelled around 100 rows. 
 
 ### started running dates 
 賴清德: 12/04/23
