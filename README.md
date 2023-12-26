@@ -10,6 +10,9 @@ when i write 執政黨/民進黨 it means that only 執政黨 is mentioned but l
 
 posts like serial_number 1208.  下架民進黨, hmm should this count? Because if I want this kind of posts to count maybe I should have also included 政黨輪替...... hmm
 
+For now I just put 下架民進黨 in the 'description' column if the post only contains this phrase but no other criticism... 
+
+
 ### serial_number
 The serial numbers are only based on the posts that fall within the time periods of each candidates' campaign.
 If I get new data I will have to add serial numbers accordingly...
