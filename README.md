@@ -18,7 +18,7 @@ criticism...
 
 - There was a post where 柯文哲 referred to 國民黨 and 民進黨 as 兩黨
 
-
+- it appears there might be two 民進黨, 蔡 labels, I might have to do some unique data cleaning later on!
 
 ### serial_number
 The serial numbers are only based on the posts that fall within the time periods of each candidates' campaign.
