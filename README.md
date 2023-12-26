@@ -6,11 +6,18 @@ even though the post created column says CST. IT is still in Taiwan time so that
 
 
 ### attack on 
-when i write 執政黨/民進黨 it means that only 執政黨 is mentioned but likely 民進黨 is implied. This is something to think about though. Because technically speaking if you're 柯文哲 or 郭台銘 執政黨 can also refer to 國民黨 I guess?
+- when i write 執政黨/民進黨 it means that only 執政黨 is mentioned but likely 民進黨 is implied. This is something to think about though. Because technically speaking if you're 柯文哲 or 郭台銘 執政黨 can also refer to 國民黨 I guess?
 
-posts like serial_number 1208.  下架民進黨, hmm should this count? Because if I want this kind of posts to count maybe I should have also included 政黨輪替...... hmm
+- posts like serial_number 1208.  下架民進黨, hmm should this count? Because if I want this kind of posts to count maybe 
+I should have also included 政黨輪替...... hmm
 
-For now I just put 下架民進黨 in the 'description' column if the post only contains this phrase but no other criticism... 
+- For now I just put 下架民進黨 in the 'description' column if the post only contains this phrase but no other
+criticism... 
+
+- 柯文哲 puts a lot of criticism on 藍綠惡鬥. So this can be read as a crtique on both 國民黨 and 民進黨. It is interesting that in some of these posts he will specifcally mention the 民進黨, but he doesn't specifically mention 國民黨.
+
+- There was a post where 柯文哲 referred to 國民黨 and 民進黨 as 兩黨
+
 
 
 ### serial_number
