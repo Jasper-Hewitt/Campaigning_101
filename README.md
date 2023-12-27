@@ -20,6 +20,8 @@ criticism...
 
 - it appears there might be two 民進黨, 蔡 labels, I might have to do some unique data cleaning later on!
 
+- CHECK serial_number 724 again! I don't think it really counts. It's more like a respectful response to some crtiticism abou the 雞蛋
+
 ### serial_number
 The serial numbers are only based on the posts that fall within the time periods of each candidates' campaign.
 If I get new data I will have to add serial numbers accordingly...
