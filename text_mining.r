@@ -119,7 +119,7 @@ master_fert_word <- master_fert_df %>%
 
 
 
-custom_stopwords <- c('支持', '告訴', '願意', '推動', '承諾', '這片', '再次', '最大', '中央', '重要', '到底', '建設','期待', 
+custom_stopwords <- c('政策', '立委', '改變', '支持', '告訴', '願意', '推動', '承諾', '這片', '再次', '最大', '中央', '重要', '到底', '建設','期待', 
                         '帶給', '趙少康', '選舉', '立刻', '必須', '清德', '清楚', '卻是', '主張', 
                        '變成', '絕對', '區域', '侯友', '選擇', '更是', '主席', '不能', '確是', '還給',  
                        "執政", "總統", "國民黨", "2024", "政治", "如今", "在此", '最後', '全國', "賴清德", "中華民國", "宜來", "未來", "侯友宜", "政黨", "一定", "民眾", "就讓",
@@ -231,7 +231,7 @@ remove_one_char_words <- function(word_list){
 }
 
 # Segmentation and removal of stopwords
-master_df$seg_content <- sapply(master_df$important_sentences, function(row) {
+master_df$seg_content <- sapply(master_df$combined_text, function(row) {
   words <- segment(code = row, jiebar = my_seg)
   words <- words[!words %in% stopwords]
   remove_one_char_words(words)
@@ -252,3 +252,30 @@ terms(lda_model, 10)  # Returns the top 15 terms for each topic
 
 # Posterior probabilities
 posterior <- posterior(lda_model)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
