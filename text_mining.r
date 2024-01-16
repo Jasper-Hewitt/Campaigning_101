@@ -43,11 +43,13 @@ master_df <- master_df %>%
 search_pattern <- "民進黨|賴|蔡|綠營"
 
 master_df <- master_df %>%
-  mutate(important_sentences = str_split(combined_text, "[。？！]")) %>% #split it into sentences
-  #find the sentences that contain some of our keywords, and paste that sentences into the important_sentences column
+  mutate(important_sentences = str_split(combined_text, "[。？！]")) %>% # split it into sentences
+  # find the sentences that contain some of our keywords, and paste those sentences into the important_sentences column
   mutate(important_sentences = map(important_sentences, ~ .[str_detect(., regex(search_pattern, ignore_case = TRUE))])) %>%
-  #unnest the columns, so each important sentence will get their own row. just like 'explode in pandas' 
-  unnest(important_sentences)
+  # unnest the columns, so each important sentence will get its own row, and then remove duplicates
+  unnest(important_sentences) %>%
+  distinct()
+
 
 unique_serial_numbers <- length(unique(master_df$serial_number))
 cat("Number of unique serial numbers:", unique_serial_numbers, "\n")
