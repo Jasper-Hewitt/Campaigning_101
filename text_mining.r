@@ -94,6 +94,8 @@ master_fert_df <- master_fert_df %>%
 stopwords <- readLines("stopwords_zh_trad.txt",
                        encoding = "UTF-8")
 
+#check len of stopwrods
+length(stopwords)
 
 #load custom dictionary 
 my_seg <- worker(bylines = T,
@@ -127,6 +129,9 @@ custom_stopwords <- c('支持', '告訴', '願意', '推動', '承諾', '這片'
                       "城市", "12", "11", "https")  # specific words about 生育率# specific words about 生育率
 stopwords <- c(stopwords, custom_stopwords)
 
+stopwords
+length(stopwords)
+
 #___________# WORDCLOUD AND WORD FREQUENCY LIST #__________# 
 
 ## create word freq list
@@ -143,8 +148,8 @@ master_word_freq %>%
   filter(nchar(word) >= 2) %>% ## remove one character words because they are usually not really relevant
   wordcloud2(shape = "circle", size = 0.4)
 #save wordcloud as image
-wordcloud2(shape = "circle", size = 0.4) %>% 
-  saveWidget("wordcloud_fertility.html", selfcontained = F)
+# wordcloud2(shape = "circle", size = 0.4) %>% 
+#   saveWidget("wordcloud_fertility.html", selfcontained = F)
 
 # Select 20 most frequent words
 top_20_words <- master_word_freq %>%
