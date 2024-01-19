@@ -8,5 +8,4 @@
 
 文字雲:hou_mudslinging_content.R, Ke_mudslinging_content.R, lai_mudslinging.R
 
-
 如果你想要看包含所有抹黑貼文的CSV檔，請下載：all_attacks.csv
